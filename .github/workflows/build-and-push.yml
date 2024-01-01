@@ -21,4 +21,4 @@ jobs:
           podman build -t redhat8-lvm:1.0 .
           podman login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD docker.io
           podman tag redhat8-lvm:1.0 docker.io/xanubi/redhat8-lvm:1.0
-          podman push docker.io/xanubi/redhat8-lvm:tag
+          podman push docker.io/xanubi/redhat8-lvm:1.0
